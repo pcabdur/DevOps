@@ -33,7 +33,7 @@ I explored:
 
 > "Felt like talking to the machine in its native language."
 
-📁 Files: `/day1-Linux-Basics/`
+📁 Files: `day 1`
 
 ---
 
