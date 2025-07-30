@@ -12,8 +12,8 @@ This is a hands-on documentation of my learning path — with each day bringing 
 | Day | Topic | Status |
 |-----|-------|--------|
 | 1   | Linux Basics – Commands, File System, Users & Permissions | ✅ Done |
-| 2   | Git & GitHub – Repo, Clone, Commit, Push | ~ |
-| 3   | Vim, Nano, Shell Scripting – Editing and Automating | - |
+| 2   | Git & GitHub – Repo, Clone, Commit, Push | ✅ Done |
+| 3   | Vim, Nano, Shell Scripting – Editing and Automating | ✅ Done |
 | 4   | File Redirection, Pipes, Grep, Cron Jobs |  - |
 | 5   | Git Branching, Merging, Conflict Solving | - |
 
