@@ -1,0 +1,35 @@
+name: Day 10 - Python CI with GitHub Actions
+
+on:
+  push:
+    paths:
+      - 'day-10/**'
+  pull_request:
+    paths:
+      - 'day-10/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        cd day-10
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Flask App (test run)
+      run: |
+        cd day-10
+        python app.py &
+        sleep 5
+        curl http://127.0.0.1:5000
